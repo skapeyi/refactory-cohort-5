@@ -1,0 +1,28 @@
+body {background-color: rgb(204, 194, 196);}
+h1 {
+    color: rgb(99, 2, 25);
+}
+
+p {
+    color: purple;
+    font-style: italic;
+}
+.green-paras {
+    color: green;
+}
+
+.orange-paras {
+    color: orange;
+}
+
+#par2 {
+    color: magenta;
+}
+
+#par3 {
+    font-style: normal;
+}
+
+* {
+    color: blue;
+}
