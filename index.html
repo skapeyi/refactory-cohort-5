@@ -3,44 +3,76 @@
 
 <head>
     <title>Cohort 5 - Introduction to HTML</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/site.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="html_attributes.html">Html Attributes</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="css_intro.html">CSS Intro</a>
-            </li>
-           
-          </ul>
-          
-        </div>
-      </nav>
-    <!-- <nav>
-        <a href="index.html">Index</a> |
-        <a href="html_attributes.html">Html Attributes</a> |
-        <a href="day3.html">Day 3</a>
-        <a href="css_intro.html">CSS Intro</a>
-    </nav> -->
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-    <p>Bridget is back to the party.</p>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html_attributes.html">Html Attributes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="css_intro.html">CSS Intro</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta semper vulputate. Nulla id mi
+                    vel libero semper lacinia. Sed aliquam non enim sed interdum. Sed tempor volutpat luctus. Cras
+                    vulputate vehicula dolor, laoreet suscipit est mollis id. Sed et consequat mauris. Etiam vel tellus
+                    vestibulum, laoreet eros et, mattis est. Sed accumsan nec lacus at commodo. Fusce pellentesque
+                    gravida sapien, in mollis elit elementum sed. Aliquam ac massa eu lorem maximus finibus. Vestibulum
+                    pellentesque gravida metus, vel cursus arcu convallis in.</p>
+
+                <p>Donec pulvinar nibh eget fermentum egestas. Etiam rhoncus luctus lacus, at posuere mauris tristique
+                    vitae. Maecenas rutrum, diam vel ullamcorper eleifend, urna ipsum dapibus justo, convallis pulvinar
+                    nunc quam non ex. Nulla lectus felis, vulputate ac lacus vel, vulputate finibus ante. Sed ante
+                    tellus, iaculis nec aliquet et, tempor a ligula. Proin vitae sollicitudin neque, non tempor urna.
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus
+                </p>
+            </div>
+
+            <div class="col">
+                <img src="img/logo.jpeg">
+            </div>
+
+        </div>
+    </div>
     <script src="bootstrap/js/jquery-3.5.1.js"></script>
     <script src="bootstrap/js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
