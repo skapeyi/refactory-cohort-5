@@ -1,11 +1,10 @@
-#par2 {
-    color: yellow;
+body {background-color: rgb(204, 194, 196);}
+.container, .container-fluid {
+    border-color: purple;
+    border-style: dotted;
 }
 
-.alert-primary {
-    color: purple;
-}
-
-#firstdiv {
-    background-color: purple;
+.col, .col-5 {
+    border-color: green;
+    border-style: solid;
 }
