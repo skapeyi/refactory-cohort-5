@@ -1,0 +1,7 @@
+Extra Small 576px
+Lower        Upper(exclusive)      Device
+                        Extra Small
+576          768px      Small Devices
+778          992px      Medium Device
+992          1200px     Large Device
+            1200                  Extra Large Device
